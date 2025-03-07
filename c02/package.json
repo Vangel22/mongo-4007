@@ -1,0 +1,15 @@
+{
+  "name": "c02",
+  "version": "1.0.0",
+  "description": "- https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/",
+  "main": "user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  }
+}

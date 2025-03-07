@@ -1,0 +1,11 @@
+Task 1 
+
+1. Iskopirajte gi studentite od chatot
+2. Dodajte grad za site studenti -> updateMany ili updateOne
+
+db.students.updateOne({ _id: <negovoto_id> }, { city: "Skopje" })
+db.students.updateMany({ _id: { $in: [<id1>, <id2>] } }, { city: "Nekoj grad" })
+
+3. find all users from Skopje
+4. find all users with gpa bigger than 3
+5. find all users aged between 18 and 24

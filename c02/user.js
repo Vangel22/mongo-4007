@@ -32,4 +32,6 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema, "users");
 
+User.find();
+
 module.exports = User;
